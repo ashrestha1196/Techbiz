@@ -51,7 +51,7 @@ I then used Packet Tracer Simulation Mode to investigate ARP, MAC address learni
 
 **Topology screenshot:**
 
-<!-- ![Packet Tracer VLAN Topology](03-Screenshots/01-topology.png) -->
+[Packet Tracer VLAN Topology](03-Screenshots/01-topology.png)
 
 ### VLAN and IP Addressing Plan
 
