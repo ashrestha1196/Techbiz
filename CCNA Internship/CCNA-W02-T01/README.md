@@ -79,10 +79,6 @@ All switch access interfaces initially belonged to **VLAN 1 (`default`)**.
 
 Creating additional VLANs did not automatically move any ports from VLAN 1.
 
-**Evidence:** `screenshots/02-default-vlan.png`
-
-<!-- ![Default VLAN Configuration](screenshots/02-default-vlan.png) -->
-
 ## 2. VLAN Creation and Access Port Configuration
 
 I created three VLANs and assigned two PC-facing interfaces to each.
@@ -144,9 +140,8 @@ The configuration save returned `[OK]`.
 An access port normally transmits untagged Ethernet frames. The switch determines their VLAN membership from the port configuration.
 
 **Evidence:**
-- `screenshots/03-vlans-created.png`
-- `screenshots/04-access-ports.png`
-- `screenshots/09-final-verification.png`
+<img width="851" height="530" alt="Default Vlan" src="https://github.com/user-attachments/assets/cffb95a2-dffc-40b3-9407-f394fedd6a93" />
+
 
 ---
 
@@ -164,7 +159,8 @@ These results confirmed that devices within each VLAN could communicate.
 
 **Evidence:** `screenshots/05-same-vlan-pings.png`
 
-<!-- ![Same VLAN Ping Results](screenshots/05-same-vlan-pings.png) -->
+![Same VLAN Ping Results](03-Screenshots/ping vlan.png)
+
 
 ### Cross-VLAN Connectivity — Failed
 
@@ -178,7 +174,7 @@ These results confirmed that devices within each VLAN could communicate.
 I investigated this further using a controlled ARP experiment.
 
 **Evidence:** `screenshots/06-cross-vlan-pings.png`
-
+<img width="552" height="518" alt="ping failed vlan" src="https://github.com/user-attachments/assets/724d4027-fa82-460b-a6e7-3618fbca87ab" />
 <!-- ![Cross VLAN Ping Failures](screenshots/06-cross-vlan-pings.png) -->
 
 ---
@@ -224,8 +220,6 @@ I compared three different connectivity failures:
 
 **Key lesson:** A failed `ping` is a symptom, not a root-cause diagnosis.
 
-**Evidence:** Add selected Packet Tracer PDU screenshots to `screenshots/07-arp-isolation/`.
-
 ---
 
 ## 5. MAC Address Table Verification
@@ -261,6 +255,8 @@ Dynamic MAC entries are learned from the source MAC addresses of incoming Ethern
 **Evidence:** `screenshots/08-mac-table.png`
 
 <!-- ![MAC Address Table](screenshots/08-mac-table.png) -->
+<img width="493" height="223" alt="mac table update" src="https://github.com/user-attachments/assets/1db5d4b7-f9ba-41e3-ac53-138dd50104fd" />
+
 
 ---
 
