@@ -1,10 +1,8 @@
-
-
-\# VLAN Segmentation, Broadcast Domains \& Ethernet Frame Forwarding
+# VLAN Segmentation, Broadcast Domains \& Ethernet Frame Forwarding
 
 
 
-\*\*Tech Biz Academy — CCNA Networking Internship | Week 2, Task 1 (`CCNA-W02-T01`)\*\*
+*\*Tech Biz Academy — CCNA Networking Internship | Week 2, Task 1 (`CCNA-W02-T01`)\*\*
 
 
 
