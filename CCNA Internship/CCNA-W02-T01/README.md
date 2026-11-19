@@ -49,9 +49,9 @@ I then used Packet Tracer Simulation Mode to investigate ARP, MAC address learni
            Fa0/6: PC5
 ```
 
-**Topology screenshot:** Add your Packet Tracer screenshot as `screenshots/01-topology.png`.
+**Topology screenshot:**
 
-<!-- ![Packet Tracer VLAN Topology](screenshots/01-topology.png) -->
+<!-- ![Packet Tracer VLAN Topology](03-Screenshots/01-topology.png) -->
 
 ### VLAN and IP Addressing Plan
 
@@ -375,34 +375,4 @@ Understanding packet flow and protocol behavior is more valuable for troubleshoo
 
 ---
 
-## 10. Suggested Repository Structure
 
-```text
-CCNA-W02-T01-VLAN-Segmentation/
-├── README.md
-├── lab/
-│   └── CCNA-W02-T01-VLAN-Lab.pkt
-└── screenshots/
-    ├── 01-topology.png
-    ├── 02-default-vlan.png
-    ├── 03-vlans-created.png
-    ├── 04-access-ports.png
-    ├── 05-same-vlan-pings.png
-    ├── 06-cross-vlan-pings.png
-    ├── 07-arp-isolation/
-    ├── 08-mac-table.png
-    └── 09-final-verification.png
-```
-
-> **Note:** Screenshot paths are placeholders. Upload the original Packet Tracer screenshots and rename them to match before enabling the Markdown image links.
-
-## 11. References
-
-- Tech Biz Academy — CCNA Internship, Week 2 Task 1
-- Cisco Networking Academy — Switching and VLAN concepts
-- Cisco IOS — VLAN Configuration Guide
-- Cisco Packet Tracer — Original configuration and Simulation Mode observations
-
----
-
-**Project Status:** Practical implementation and lab verification completed. GitHub evidence uploads and formal internship submission are separate steps.
